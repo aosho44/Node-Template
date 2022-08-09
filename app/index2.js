@@ -36,9 +36,10 @@ console.log(products, last2Products);
 
 // map
 
-const productMap = products.map((products) => products.name);
+const productMap = products.map((product) => product.name);
 
 console.log(productMap);
 
-const productPrice = products.map((products) => products.price * 100);
+const productPrice = products.map((product) => product.price * 100);
+
 console.log(productPrice);
