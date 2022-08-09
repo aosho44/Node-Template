@@ -34,6 +34,11 @@ last2Products.push({
 
 console.log(products, last2Products);
 
-last2Products[0].name = "Product 2 updated";
+// map
 
-console.log(products);
+const productMap = products.map((products) => products.name);
+
+console.log(productMap);
+
+const productPrice = products.map((products) => products.price * 100);
+console.log(productPrice);
